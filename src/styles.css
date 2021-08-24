@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  object-fit: contain;
+  padding: 10px;
+}
+.footer-buttons {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  bottom: 10px;
+}
+.footer-buttons .MuiIconButton-root {
+  background-color: white;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+.replay {
+  padding: 3vw !important;
+  color: #f5b748 !important;
+}
+.close {
+  padding: 3vw !important;
+  color: #ec5e6f !important;
+}
+.star {
+  padding: 3vw !important;
+  color: #b1d4f1 !important;
+}
+.heart {
+  padding: 3vw !important;
+  color: #76e2b3 !important;
+}
+.thunder {
+  padding: 3vw !important;
+  color: #915dd1 !important;
+}
+.tinder-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  /* position: relative; */
+  /* border: 1px solid black; */
+}
+.card {
+  height: 50vh;
+  width: 600px;
+  max-width: 85vw;
+  padding: 20px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+.swipe {
+  position: absolute;
+}
+.card > h3 {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+}
+.form {
+  display: block;
+}
+.form > input {
+  display: block;
+}
+.chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid lightgray;
+}
+.chat-message {
+  flex: 1;
+}
+.chat-message > p {
+  color: grey;
+}
+.chat-image {
+  margin-right: 20px;
+}
+.timestamp {
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.chatscreen {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.chatscreen-text {
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 20px;
+}
+.replyscreen {
+  justify-content: flex-end;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.replyscreen-text {
+  margin-left: 10px;
+  background-color: #29b3cd;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+}
+.send-message {
+  padding: 5px;
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.send-message .send-input {
+  flex: 1 !important;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.send-input:focus {
+  border: none;
+  outline: none;
+}
+.send-button {
+  border: none;
+  margin-right: 20px;
+  background-color: white;
+  font-weight: bolder;
+  color: #fe3d71;
+}
+.login-page {
+  text-align: center;
+  overflow: none;
+  margin: 30px auto;
+}
+.login-page .form {
+  margin: 50px auto;
+}
+.form input {
+  padding: 20px;
+  margin: 10px auto;
+  width: 600px;
+  max-width: 100%;
+  border: 2px solid grey;
+}
+.login-button {
+  width: 600px;
+  max-width: 100%;
+  border-radius: 25px;
+  background-color: #fe3d71;
+  padding: 10px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.login-desc {
+  color: grey;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.register {
+  color: #fe3d71;
+  cursor: pointer;
+}
